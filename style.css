@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: stretch;
+    margin-right: 50px;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    overflow: hidden;
+    font-family: serif;
+    background: linear-gradient(rgba(17, 183, 235, 1), rgba(138, 241, 255, 1));
+    padding-bottom: 30px;
+}
+
+#calculator{
+
+    background-color: rgb(55, 55, 55);
+    width: 450px;
+    height: 600px;
+    border-radius: 5%;
+    overflow: hidden;
+
+}
+
+#calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+#display{
+    width: 90%;
+    height: 70px;
+    border-color: transparent;
+    background-color: rgb(73, 72, 72);
+    color: white;
+    font-size: 45px;
+    padding-left: 25px;
+    padding-right: 125px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 400;
+    border-color: transparent;
+    color: rgb(37, 36, 36);
+    background-color: rgba(17, 183, 235, 1);
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(17, 213, 235);
+
+}
+
+button:active{
+    background-color: rgb(152, 229, 255);
+}
+
+.oper{
+    background-color: rgb(22, 209, 78);
+}
+
+.oper:hover{
+    background-color: rgb(74, 238, 123);
+}
+
+.oper.active{
+    background-color: rgb(131, 237, 162);
+}
+
+#Secondory_display{
+    width: 90%;
+    height: 40px;
+    border-color: transparent;  
+    background-color: rgb(73, 72, 72);
+    color: white;
+    font-size: 25px;
+    vertical-align: bottom;
+    padding-left: 25px;
+    padding-right: 125px;
+    text-align: right;
+    padding-bottom: -20px;
+    text-align: end;
+
+
+}
+
+
+.title_box{
+    display: grid;
+    justify-content: left;
+    height: 100%;
+    margin-left: -10px;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
+    width:70%;
+    margin-right: 50px;;
+
+
+}
+h1{
+
+    font-size: 40px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+}
+
+p{
+
+    width: 600px;
+    font-size: 18px;
+    color: rgb(54, 54, 54);
+    font-weight: 200;
+}
+
+
